@@ -1,0 +1,131 @@
+body{
+    background-color: #1F2937;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header {
+    display:flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+#all{
+    display: flex;
+    
+}
+
+#left, #right{
+    height: auto;
+    width: 400px;
+}
+
+#heroSec, a{
+    color: #E5E7EB;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Logo, #heroMain {
+    color: #F9FAF8
+}
+
+#Logo{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#hLinks {
+    display: flex;
+    margin-left: auto;
+    
+}
+
+#heroMain {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#heroSec{
+    font-size: 18px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 12px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 150px;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    
+}
+
+#lefthero {
+    display:flex;
+    flex-direction: column;
+    margin-right: 30px;
+    flex-shrink: 2;
+}
+
+#img1{
+    width:900px;
+    height: 220px;
+    margin-left: 50px;
+}
+
+#whiteBack {
+    margin-top: 100px;
+    background-color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#infoHead {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+#pictures{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.picText{
+    display:flex;
+    flex-direction: column;
+    width: 150px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin:20px
+}
+
+
+.img2{
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
