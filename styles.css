@@ -61,7 +61,7 @@ button {
     border-radius: 12px;
     text-decoration: none;
     border: none;
-    color: white;
+    color: #F9FAF8;
     padding: 10px 32px;
     font-weight: bold;
     font-size: 16px;
@@ -90,6 +90,7 @@ button {
 
 #whiteBack {
     margin-top: 100px;
+    padding-top: 20px;
     background-color: #F9FAF8;
     display: flex;
     align-items: center;
@@ -109,26 +110,97 @@ button {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+    font-size: 20px;
 }
 
 #quoteBackground{
     display: flex;
     background-color: #E5E7EB;
     flex-direction: column;
+    justify-content: center;
+    padding: 100px;
 }
 
 #quote{
+    margin-left: 60px;
+    margin-right: 60px;
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
 }
 
-#quotePerson{}
+#quotePerson{
+    margin-left: auto;
+    margin-right: 130px;
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#whiteBackTwo{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+#popup{
+    background-color: #3882F6;
+    width: auto;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+
+}
+
+#popupHeader{
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#popupSub{
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+#popupLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+#popupRight{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#signUpSec{
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 12px;
+    border-color: #F9FAF8;
+    text-decoration: none;
+    color: #F9FAF8;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 150px;
+}
+
+#copyright{
+    color: #F9FAF8;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+}
 
 .picText{
     display:flex;
     flex-direction: column;
-    width: 150px;
+    width: 220px;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
@@ -138,9 +210,11 @@ button {
 
 .img2{
     border: 3px solid #3882F6;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 12px;
     margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
