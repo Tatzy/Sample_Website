@@ -10,9 +10,9 @@ body{
     margin-bottom: 150px;
 }
 
-#all{
+#firstPart{
     display: flex;
-    
+    flex-direction: row;
 }
 
 #left, #right{
@@ -111,6 +111,20 @@ button {
     margin-bottom: 100px;
 }
 
+#quoteBackground{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+#quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+#quotePerson{}
+
 .picText{
     display:flex;
     flex-direction: column;
@@ -129,3 +143,4 @@ button {
     border-radius: 12px;
     margin-bottom: 10px;
 }
+
